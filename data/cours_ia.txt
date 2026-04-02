@@ -1,0 +1,10 @@
+Le Retrieval-Augmented Generation (RAG) est une architecture qui combine la recherche d'information et la génération de texte.
+
+Le principe général est le suivant :
+1. On découpe les documents en morceaux appelés chunks.
+2. On transforme ces chunks en vecteurs avec un modèle d'embedding.
+3. On stocke ces vecteurs dans une base vectorielle.
+4. Lorsqu'un utilisateur pose une question, le système recherche les passages les plus pertinents.
+5. Le modèle de génération utilise ce contexte pour produire une réponse plus fiable.
+
+Le RAG permet de limiter les hallucinations et d'exploiter des documents privés ou métiers.

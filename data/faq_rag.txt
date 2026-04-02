@@ -1,0 +1,10 @@
+FAQ RAG
+
+Question : Quelle est la différence entre fine-tuning et RAG ?
+Réponse : Le fine-tuning modifie le comportement du modèle, alors que le RAG lui fournit un contexte externe au moment de la génération.
+
+Question : Pourquoi utiliser FAISS ?
+Réponse : FAISS permet d'effectuer une recherche de similarité rapide sur des vecteurs.
+
+Question : Pourquoi utiliser Streamlit ?
+Réponse : Streamlit permet de créer rapidement une interface web simple pour interagir avec le chatbot.

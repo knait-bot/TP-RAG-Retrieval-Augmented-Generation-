@@ -1,0 +1,29 @@
+[project]
+name = "rag-tp"
+version = "0.1.0"
+description = "TP RAG complet avec notebook, Streamlit et RAG multimodal"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "streamlit==1.44.0",
+    "openai==1.75.0",
+    "langchain==0.1.17",
+    "langchain-openai==0.1.5",
+    "langchain-community==0.0.38",
+    "langchain-text-splitters==0.0.2",
+    "faiss-cpu==1.8.0",
+    "python-dotenv==1.0.1",
+    "pypdf==4.2.0",
+    "pymupdf==1.24.2",
+    "pillow==10.3.0",
+    "jupyter==1.0.0",
+    "ipykernel==6.29.4"
+]
+
+[tool.uv]
+dev-dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
