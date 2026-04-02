@@ -31,9 +31,9 @@ L’application permet de charger un document PDF et de poser des questions en l
 
 ## 📸 Interface
 
-![Interface du projet](assets/screenshot.png)
+![Interface du projet](interface.png)
 
----
+```
 
 ## 📂 Structure du projet
 
